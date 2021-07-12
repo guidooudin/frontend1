@@ -1,0 +1,35 @@
+header{
+    background-color: #e5e5e5;
+
+}
+h1.titulo{
+    background-color: #c4c4c4;
+    color: #005677;
+    text-align: center;
+}
+img.logoBatman{
+    margin: auto;
+    display: block;
+}
+h2{
+    background-color: #c4c4c4;
+    color: #005677;
+}
+.negritaycursiva{
+    font-weight: bold;
+    font-style: italic;
+}
+.negrita{
+    font-weight: bold;
+}
+.alinear{
+    text-align: initial;
+}
+p{
+    line-height: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #FFFFFF;
+}
