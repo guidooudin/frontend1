@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: indigo;
+    background-image: url(../img/quimica.jpg);
+    background-size: cover;
+    font: oblique bold 120% cursive;
+}
+h1{
+    background-color: #1C0637;
+}
+
+body{
+    background-image: url(../img/programador1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font: small-caps;
+}
+.centrado{
+    text-align: center;
+}
+
+footer{
+    background-color: #272629;
+    text-align: center;
+    color: white;
+    font: serif 100%;
+}

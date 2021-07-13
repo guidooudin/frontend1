@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: blue;
+    background-image: url(../img/front.png);
+    -webkit-text-stroke: 2px black;
+    font-size: 30px;
+}
+body{
+    background-color: pink;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color: white;
+    
+}
+h2{
+    background-color: #c4c4c4;;
+    color: blue;
+    -webkit-text-stroke: 2px black;
+}
+
+
+footer{
+    background-color: #272629;
+    text-align: center;
+    color: white;
+}
