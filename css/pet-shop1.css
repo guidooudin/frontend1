@@ -1,0 +1,32 @@
+.principio{
+    background-color: #222222;
+    color: #F3F3F3;
+}
+.principio2{
+    background-color: #F0A83E;
+    color: white;
+
+}
+.imagenBackground{
+   background:url('../img/bowl-and-pet-daities-on-green-background\ 1.png') no-repeat center center;
+   background-size: cover;
+   height: 400px;
+   width: 1350px;
+}
+.fondoNaranja{
+    background-color: #F0A83E;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 620px;
+}
+.ProductosDestacados{
+    color: #3C2313;
+}
+.Datos{
+    background-color: #3C2313;
+}
+.footer2{
+    background-color: #F0A83E;
+    color: white;
+}
