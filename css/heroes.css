@@ -1,0 +1,151 @@
+.descuento{
+    background-color: #1CD1B0;
+    height: 20px;
+    background-size: cover;
+}
+header{
+    background-color: #00669F;
+}
+.title{
+position: relative;
+
+left: 28px;
+width: 128px;
+height: 47px;
+background-color: #00669F;
+}
+
+.articulo1{
+    position: absolute;
+width: 267px;
+height: 500px;
+left: 48px;
+top: 200px;
+
+}
+
+.logoCorazon{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.batman{
+    position: relative;
+width: 120px;
+height: 118px;
+left: 75px;
+bottom: 75px;
+border-radius: 250px;
+}
+.articulo1texto{
+    top: 260px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+}
+.articulo1texto2{
+    top: 300px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+text-align: justify;
+}
+.botonVerMas1{
+    top: 425px;
+    position: absolute;
+    width: 100px;
+height: 30px;
+background-color: #00669F;
+color: white;
+text-align: center;
+left: 75px;
+line-height: 18px;
+font-size: 20px;
+}
+.article2{
+    position: absolute;
+width: 300px;
+height: 500px;
+left: 500px;
+top: 200px;
+
+;
+}
+.harley{
+    position: relative;
+width: 120px;
+height: 118px;
+left: 75px;
+bottom: 75px;
+border-radius: 250px;
+}
+.articulo2texto1{
+    top: 260px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+}
+.articulo2texto2{
+    top: 300px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+text-align: justify;
+}
+.article3{
+    position: absolute;
+width: 300px;
+height: 500px;
+left: 950px;
+top: 200px;
+
+}
+.batman2{
+    position: relative;
+width: 120px;
+height: 118px;
+left: 75px;
+bottom: 75px;
+border-radius: 250px;
+}
+.articulo3texto1{
+    top: 260px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+}
+.articulo3texto2{
+    top: 300px;
+    position: absolute;
+    width: 267px;
+height: 50px;
+text-align: justify;
+}
+.botonVerMas3{
+    top: 425px;
+    position: absolute;
+    width: 100px;
+height: 30px;
+background-color: #00669F;
+color: white;
+text-align: center;
+left: 75px;
+line-height: 18px;
+font-size: 20px;
+}
+footer{
+    background: rgba(0, 102, 159, 1);
+    position: absolute;
+    top: 800px;
+    color: white;
+    
+    height: 47px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.pie{
+    left: 47px;
+    position: relative;
+    width: 1440px;
+}
