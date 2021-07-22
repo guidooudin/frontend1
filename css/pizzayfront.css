@@ -1,0 +1,104 @@
+.encabezado{
+    background-color: rgba(34, 34, 34, 1);
+    color: #F3F3F3;
+    height: 110px;
+    
+}
+.categoriasheader{
+    width: 500px;
+    left: 720px;
+    bottom: 20px;
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+}
+.pizzafrontheader {
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    height: 500px;
+
+}
+.Delivery1{
+    
+}
+.delivery{
+    position: relative;
+    top: 50px;
+}
+.deliveryTexto{
+    right: 58%;
+    bottom: 270px;
+    position: relative;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #FC200C;
+}
+.comprando{
+    color: white;
+}
+.podio{
+    
+}
+.pizzaVoladora{
+    top: 300px;
+    position: absolute;
+}
+.PodioDePizzas{
+    position: absolute;
+    top: 180px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+right: 280px;
+color: #FC200C;
+
+}
+.Top5{
+    position: absolute;
+    top: 260px;
+    left: 830px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+}
+.lista{
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+
+position: absolute;
+top: 300px;
+left: 800px;
+}
+footer{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    height: 140px;
+}
+.listafooter{
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+}
+.imagenfinal{
+    left: 1050px;
+    bottom: 90px;
+    position: relative;
+}
