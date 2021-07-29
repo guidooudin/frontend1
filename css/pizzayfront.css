@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 .encabezado{
     background-color: rgba(34, 34, 34, 1);
     color: #F3F3F3;
@@ -26,8 +30,10 @@ main{
     height: 500px;
 
 }
+
 .Delivery1{
-    
+    position: relative;
+    right: 50px;
 }
 .delivery{
     position: relative;
@@ -91,14 +97,17 @@ footer{
     background-color: rgba(34, 34, 34, 1);
     color: white;
     height: 140px;
+    background-size: cover;
 }
 .listafooter{
     position: relative;
     margin: 10px;
     font-size: 20px;
+    top: 20px;
+    line-height: 28px;
 }
 .imagenfinal{
     left: 1050px;
-    bottom: 90px;
-    position: relative;
+    bottom: -60px;
+    position: absolute;
 }

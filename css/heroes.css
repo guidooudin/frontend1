@@ -1,10 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
 .descuento{
     background-color: #1CD1B0;
     height: 20px;
     background-size: cover;
+    margin: 0px;
+    
+    
 }
 header{
     background-color: #00669F;
+    margin: 0px;
+    
 }
 .title{
 position: relative;
@@ -13,6 +22,7 @@ left: 28px;
 width: 128px;
 height: 47px;
 background-color: #00669F;
+
 }
 
 .articulo1{
@@ -43,6 +53,7 @@ border-radius: 250px;
     position: absolute;
     width: 267px;
 height: 50px;
+margin: 20px;
 }
 .articulo1texto2{
     top: 300px;
@@ -50,6 +61,7 @@ height: 50px;
     width: 267px;
 height: 50px;
 text-align: justify;
+margin: 20px;
 }
 .botonVerMas1{
     top: 425px;
@@ -62,6 +74,7 @@ text-align: center;
 left: 75px;
 line-height: 18px;
 font-size: 20px;
+margin: 20px;
 }
 .article2{
     position: absolute;
@@ -85,6 +98,7 @@ border-radius: 250px;
     position: absolute;
     width: 267px;
 height: 50px;
+margin: 20px;
 }
 .articulo2texto2{
     top: 300px;
@@ -92,6 +106,7 @@ height: 50px;
     width: 267px;
 height: 50px;
 text-align: justify;
+margin: 20px;
 }
 .article3{
     position: absolute;
@@ -114,6 +129,7 @@ border-radius: 250px;
     position: absolute;
     width: 267px;
 height: 50px;
+margin: 20px;
 }
 .articulo3texto2{
     top: 300px;
@@ -121,6 +137,7 @@ height: 50px;
     width: 267px;
 height: 50px;
 text-align: justify;
+margin: 20px;
 }
 .botonVerMas3{
     top: 425px;
@@ -133,6 +150,7 @@ text-align: center;
 left: 75px;
 line-height: 18px;
 font-size: 20px;
+margin: 20px;
 }
 footer{
     background: rgba(0, 102, 159, 1);
@@ -147,5 +165,5 @@ footer{
 .pie{
     left: 47px;
     position: relative;
-    width: 1440px;
+    width: 1350px;
 }
