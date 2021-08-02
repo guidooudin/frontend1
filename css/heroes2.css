@@ -30,6 +30,22 @@ height: 47px;
 background-color: #00669F;
 
 }
+.accesos{
+    background-color: #001D2D;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+.accesos2{
+    position: relative;
+    margin-right: 50px;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 main{
 
     justify-content: space-between;
@@ -224,4 +240,20 @@ top: 1200px;
         
     }
     
+}
+footer{
+    background: rgba(0, 102, 159, 1);
+    position:relative;
+    top: 50px;
+    color: white;
+    
+    height: 47px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.pie{
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    top: 10px;
 }
