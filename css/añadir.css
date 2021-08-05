@@ -47,6 +47,7 @@ background-color: #00669F;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .cuerpo{
     width: 950px;
     height: 890px;
@@ -193,4 +194,20 @@ background-color: #00669F;
 .boton2:hover{
     background-color: #001D2D;
     color: white;
+}
+footer{
+    background: rgba(0, 102, 159, 1);
+    position:relative;
+    top: 50px;
+    color: white;
+    
+    height: 47px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.pie{
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    top: 10px;
 }
