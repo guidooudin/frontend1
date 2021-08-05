@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/añadir.css">
+</head>
+<body>
+    <header>
+        <p class="descuento"><span class="descuento2">Descuentos 20%</span></p>
+        <h1 class="title">Card Super Heroes</h1>
+        <ul type= "none" class="accesos">
+            <li class="accesos2"><a href="../heroes/contactos.html">Contacto</a></li>
+            <li class="accesos2"><a href="../heroes/registro.html">Registrarme</a></li>
+            <li class="accesos2"><a href="../heroes/ingreso.html">Ingresar</a></li>
+        </ul>
+    </header>
+    <main>
+    <section class="cuerpo">
+        <h2 class="anadirSuper">Añadí tu super!</h2>
+        <p class="agregarSuper">Agrega tu personaje favorito completando estas opciones</p>
+        <span class="nombreSuper">*Nombre</span>
+        <span><form action="./añadir.html" method="POST">
+        <input class="nombreSuperForm" type="text" name="nombre">
+        </form></span>
+
+        <span class="especieSuper">*Especie</span>
+        <span><form action="./añadir.html" method="POST">
+            <select class="especieSuperForm" name="especie" id="especie">
+                <option value="" selected disabled >...</option>
+                <option value="Kriptoniano">Kriptoniano</option>
+                <option value="Humano">Humano</option>
+                <option value="Amazona">Amazona</option>
+                <option value="Alien">Alien</option>
+                <option value="Linterna">Linterna</option>
+            </select>
+        </form></span>
+
+        <span class="fechaSuper">Fecha</span>
+        <form action="./añadir.html" method="POST">
+            <input class="fechaSuperForm" type="date" name="fecha">
+        </form>
+        <span class="fotoSuper">Agregar</span>
+        <input class="fotoSuperForm" type="file" name="foto" accept="image/png, image/jpeg">
+
+        <span><form action="./añadir.html" method="POST">
+            <input class="descripcionSuperForm" type="text" name="Descripcion" placeholder="Descripcion">
+            </form></span>
+        
+        <span class="poderesSuper">Poderes</span>
+        <p class="poderesSuperForm"><input type="checkbox" name="poderes">
+                    <label for="Volar"> Volar</label><br>
+                    <input type="checkbox" id="Superinteligencia" name="Superinteligencia" value="2">
+                    <label for="Superinteligencia"> Superinteligencia</label><br>
+                    <input type="checkbox" id="Vistalaser" name="Vistalaser" value="3">
+                    <label for="Vistalaser"> Vista de rayos laser</label><br>
+                    <input type="checkbox" id="billetera" name="billetera" value="4">
+                    <label for="billetera">Billetera gorda</label></p> <br>
+        <span class="tipoSuper">Tipo de Personaje</span>
+        <p class="tipoSuperForm">
+            <input type="radio" id="documento1" name="documento" value="1">
+            <label for="documento1"> Heroe / Heroina </label> <br>
+            <input type="radio" id="documento2" name="documento" value="2">
+            <label for="documento2"> Villano / Villana </label>
+            
+        </p>
+        <section class="boton">
+            <input class="boton2" type="submit" value="Añadir">
+        </section>
+    </section>
+</main>
+</body>
+</html>

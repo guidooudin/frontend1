@@ -6,7 +6,8 @@
     
 }
 .descuento{
-    background-color: #D1891C;
+    background-color: 
+    #1CD1B0;
     height: 20px;
     background-size: cover;
     margin: 0px;
@@ -74,7 +75,7 @@ left: 200px;
     position: relative;
 width: 120px;
 height: 118px;
-left: 75px;
+left: 95px;
 bottom: 75px;
 border-radius: 250px;
 }
@@ -131,7 +132,18 @@ top: 600px;
     top: 600px;
     
 }
-
+.botonSticky{
+    position: fixed;
+    top: 250px;
+    left: 1200px;
+    height: 82px;
+    width: 82px;
+    background-color: #00669F;
+    border-radius: 250px;
+}
+.botonSticky:hover{
+    background-color: #001D2D;
+}
 
 
 
