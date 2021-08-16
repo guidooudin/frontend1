@@ -11,12 +11,14 @@
     height: 20px;
     background-size: cover;
     margin: 0px;
-    
+    text-decoration: none;
 }
 .descuento2{
     left: 30px;
     position: relative;
+    
 }
+
 header{
     background-color: #00669F;
     margin: 0px;
@@ -39,6 +41,7 @@ background-color: #00669F;
     align-items: center;
     position: relative;
     color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 .accesos2{
     position: relative;
@@ -46,7 +49,18 @@ background-color: #00669F;
     
     margin-top: 0px;
     margin-bottom: 0px;
+    text-decoration: none;
 }
+.accesos2:link{
+    text-decoration: none;
+}
+.accesos2:hover{
+    text-decoration: none;
+}
+.accesos2:visited{
+    text-decoration: none;
+}
+
 main{
 
     justify-content: space-between;
@@ -140,9 +154,17 @@ top: 600px;
     width: 82px;
     background-color: #00669F;
     border-radius: 250px;
+    color: #ffffff;
 }
 .botonSticky:hover{
     background-color: #001D2D;
+    
+}
+.botonSticky2{
+    position: relative;
+    color: white;
+    left: 10px;
+    top: 9px;
 }
 
 
