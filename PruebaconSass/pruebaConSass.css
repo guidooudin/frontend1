@@ -10,6 +10,7 @@
   position: relative;
   left: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+  width: 50rem;
 }
 
 .accesos {
@@ -69,7 +70,7 @@ h2 {
 
 .wireframe {
   position: absolute;
-  left: 36rem;
+  left: 40rem;
   width: 50%;
   bottom: 0rem;
 }
@@ -268,6 +269,7 @@ footer {
   top: 11rem;
   left: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+  width: 80rem;
 }
 
 .accesosFooter {
@@ -304,5 +306,10 @@ footer {
 .accesosFooter2:hover {
   -webkit-animation: text-shadow-pop-left 0.6s both;
           animation: text-shadow-pop-left 0.6s both;
+}
+
+#facebook {
+  width: 1%;
+  position: relative;
 }
 /*# sourceMappingURL=pruebaConSass.css.map */
