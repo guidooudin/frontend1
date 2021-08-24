@@ -1,0 +1,28 @@
+@media (max-width: 700px) {
+  .top-container {
+        grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
+  }
+  .showcase h1 {
+    font-size: 2.5rem;
+  }
+  .main-nav ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .info .btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-container {
+        grid-template-areas: 'showcase' 'top-box-a' 'top-box-b';
+  }
+}
+/*# sourceMappingURL=mediaQueries.css.map */

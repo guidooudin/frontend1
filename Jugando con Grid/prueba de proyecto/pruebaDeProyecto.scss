@@ -1,0 +1,200 @@
+$primary: #ddd;
+$dark: #333;
+$light: #fff;
+$shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $dark;
+}
+body{
+    background-color: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+.btn{
+    background: $dark;
+    color: $light;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    &:hover{
+        animation: pulsate-bck 0.5s ease-in-out infinite both;
+    }
+}
+@keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+img{
+    max-width: 100%;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+/* Navigation */
+.main-nav ul{
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    & a{
+        display: block;
+        background: $primary;
+        padding: 0.8rem;
+        text-align: center;
+        color: $dark;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.1rem;
+        box-shadow: $shadow;
+        &:hover{
+            background: $dark;
+            color: $light;
+            animation: jello-horizontal 0.9s both;
+        }
+    }
+}
+@keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+/* Top Container */
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'showcase showcase top-box-a'
+    'showcase showcase top-box-b';
+}
+/* Showcase */
+.showcase {
+    grid-area: showcase;
+    min-height: 400px;
+    background: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: $shadow;
+    & h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+        color: $light;
+    }
+    & p{
+        font-size: 1.3rem;
+        margin-top: 0;
+        color: $light;
+    }
+}
+.top-box {
+    display: grid;
+    background: $primary;
+    align-items: center;
+    justify-items: center;
+    box-shadow: $shadow;
+    padding: 1.5rem;
+}
+.top-box .price {
+    font-size: 2.5rem;
+}
+.top-box-a{
+    grid-area: top-box-a;
+}
+.top-box-b{
+    grid-area: top-box-b;
+}
+/* Boxes */
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.box{
+    background: $primary;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: $shadow;
+}
+/* Info */
+.info{
+    background: $primary;
+    box-shadow: $shadow;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: $shadow;
+}
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: $dark;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    & p{
+        color: $light;
+    }
+}
+
+@import "_mediaQueries.scss"
